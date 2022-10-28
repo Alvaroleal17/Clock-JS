@@ -1,7 +1,7 @@
-let hour = document.getElementById("hour");
-let minute = document.getElementById("minute");
-let seconds = document.getElementById("seconds");
-let period = document.getElementById("period");
+const hour = document.getElementById("hour");
+const minute = document.getElementById("minute");
+const seconds = document.getElementById("seconds");
+const period = document.getElementById("period");
 
 const clock = setInterval(function time() {
   let date_now = new Date();
